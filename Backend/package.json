@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "start:dev": "nodemon ./server.js"
+  },
+  "keywords": [
+    "graphql",
+    "node js",
+    "apollo server"
+  ],
+  "author": "Muhammad Farooq",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@apollo/server": "^4.11.2",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "graphql": "^16.9.0",
+    "nodemon": "^3.1.7"
+  }
+}
